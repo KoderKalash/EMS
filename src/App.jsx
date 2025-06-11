@@ -42,10 +42,10 @@ const App = () => {
 
 
   return (
-    <>
+    <div className='min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-4 bg-pattern'>
       {!user ? <Login handleLogin={handleLogin} /> : ''}
       {user == 'admin' ? <AdminDashboard changeUser={setUser} /> : (user == 'employee' ? <EmployeeDashboard changeUser={setUser} data={loggedInUserData} /> : null) }
-    </>
+    </div>
   )
 }
 
