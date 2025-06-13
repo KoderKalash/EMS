@@ -37,7 +37,7 @@ Use the following test credentials to log in:
 
 * ⚛️ React js
 * 💨 Tailwind CSS
-* 🔄 React Router 
+* 🟢 lordicons
 
 
 
